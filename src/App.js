@@ -11,7 +11,7 @@ export default function App() {
       }}
     >
       <div style={{ width: 1280 }}>
-        <img src="https://firebasestorage.googleapis.com/v0/b/kernel-robotics.appspot.com/o/kernelrobotics-logo.png?alt=media&token=2b7b9a0c-8100-4ce2-9998-4c95bdbe3336" style={{width:'80%'}}/>
+        <img src="https://firebasestorage.googleapis.com/v0/b/kernel-robotics.appspot.com/o/kernelrobotics-logo.png?alt=media&token=2b7b9a0c-8100-4ce2-9998-4c95bdbe3336" />
         <div
           style={{
             width: '100%',
