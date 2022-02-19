@@ -11,9 +11,7 @@ export default function App() {
       }}
     >
       <div style={{ width: 1280 }}>
-        <h1 style={{ color: '#555', padding: 0, margin: 0 }}>
-          KERNEL ROBOTICS
-        </h1>
+        <img src="assets/kernelrobotics-logo.png" />
         <h2
           style={{
             color: '#555',
