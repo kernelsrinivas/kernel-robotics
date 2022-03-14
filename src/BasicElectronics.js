@@ -6,7 +6,7 @@ const powerBasics = [
   { name: 'Voltage' },
   { name: 'Power/Load' },
   { name: 'Transformer' },
-  { name: 'Switch' },
+  { name: 'Generator' },
 ];
 
 const basicComponents = [
@@ -21,8 +21,8 @@ const powerComponents = [
   { name: 'Convertor' },
   { name: 'Inverter' },
   { name: 'Regulator' },
+  { name: 'Switch/Relay' },
   { name: 'Breaker(MCB)' },
-  { name: 'Relay' },
 ];
 
 const switchingComponents = [
@@ -50,15 +50,15 @@ const controllerComponents = [
   { name: 'DCS' },
 ];
 
-const wiredCommuncation = [
+const wiredCommuncations = [
   { name: 'RS232/RS485' },
-  { name: 'SPI' },
-  { name: 'I2C' },
+  { name: 'SPI/I2C' },
   { name: 'USB' },
   { name: 'Ethernet' },
+  { name: 'CAN' },
 ];
 
-const wirelessCommuncation = [
+const wirelessCommuncations = [
   { name: 'RF/LoRa' },
   { name: 'Bluetooth' },
   { name: 'Zigbee' },
@@ -68,10 +68,10 @@ const wirelessCommuncation = [
 
 const fieldInputs = [
   { name: 'Field Instruments(FLPT)' },
-  { name: 'Vision Sensor(IR/Photodiaode/Camera)' },
-  { name: 'Sonic Sensor (Ultra/Mic)' },
+  { name: 'Light Sensor(IR/Photodiaode/Camera)' },
+  { name: 'Sound Sensor (Ultra/Mic)' },
   { name: 'Touch Sensor(Flex/Keypad)' },
-  { name: 'Advance Sensor(GPS/Compass/Acc/Encoder' },
+  { name: 'Misc. Sensor(GPS/Compass/Acc/Encoder' },
 ];
 
 const fieldOutputs = [
